@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 mimic3_path = '../../mimic-iii-clinical-database-1.4/'
 

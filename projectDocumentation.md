@@ -95,7 +95,12 @@ Now, for each prediction we want to get, we go through the following steps:
 - Parameter Tuning
 - Results discussion
 
+**We use Jupyter Notebook to describe these steps in order to show also the python code used to reach our target.**
+
 ## Hospital LOS (Length-of-Stay)
+
+-> length-of-stay-notebook.ipynb
+
 First of all what is LOS? **Hospital length-of-stay (LOS)** is defined as the time between hospital admission and discharge measured in days.
 
 **1. Problem Statement**: The goal is to create a model that predicts the length-of-stay for each patient at time of admission.
@@ -131,9 +136,15 @@ Best possible R2 score is 1.0 and a negative value means it is worse than a cons
 - The start point was to observe and analyze the tables in the dataset to understand how the data is distributed (Pandas libraries for Python is used to handle the tables as dataframes).
 - The common functions of Pandas DataFrame to use for an overview of the table are the following:
   ``` python
-    dataframe.info()
-    dataframe.head()
+  dataframe.info()
+  dataframe.head()
+  dataframe.describe()
   ```
+- After reviewing the contents of the various tables in the MIMIC database, only some tables were selected and loaded into DataFrames using Pandas because it was assumed that it wasn't necessary or useful for prediction to include all tables. So the table selected are the following: 
+- **ADMISSIONS.csv** that defines a patient’s hospital admission, 
+- **PATIENTS.csv** that defines a single patient, 
+- **DIAGNOSES_ICD.csv** that contains ICD diagnoses for patients, most notably ICD-9 diagnoses (after this matter will be better explained),
+- **ICUSTAYS.csv** that defines a single ICU stay.
 
 
 
