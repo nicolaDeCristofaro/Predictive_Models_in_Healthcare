@@ -98,26 +98,43 @@ Now, for each prediction we want to get, we go through the following steps:
 ## Hospital LOS (Length-of-Stay)
 First of all what is LOS? **Hospital length-of-stay (LOS)** is defined as the time between hospital admission and discharge measured in days.
 
-**1.Problem Statement**: The goal is to create a model that predicts the length-of-stay for each patient at time of admission.
+**1. Problem Statement**: The goal is to create a model that predicts the length-of-stay for each patient at time of admission.
 
 In order to predict hospital LOS, the MIMIC data needed to be separated into terms of:
 - dependent target variable (length-of-stay in this case) 
 - and independent variables (features) to be used as inputs to the model. 
 
-**2.Type of model used for prediction**
+**2. Type of model used for prediction**
 Since LOS is not a categorical but continuous variable (measured in days), a **regression model** will be used for prediction. 
 
-**3.Metrics used for validation**
+**3. Metrics used for validation**
 The expected outcome is that the model we use will be better at predicting hospital LOS than the industry standards of **median and average LOS**. The median LOS is simply the median LOS of past admissions to a hospital. Similarly, a second commonly used metric in healthcare is the average, or mean LOS. 
 
 So, to measure performance of our model, we'll compare the prediction model against the median and average LOS using the root-mean-square error (RMSE). The RMSE is a commonly used measure of the differences between values predicted by a model and the values observed, where a *lower score implies better accuracy*. For example, a perfect prediction model would have an RMSE of 0. 
 
 The RMSE equation for this work is given as follows, where (n) is the number of hospital admission records, (y-hat) the prediction LOS, and (y) is the actual LOS.
 
+![RMSE](/images/RMSE.png)
 
+We could say we have a successful model if its prediction results in a lower RMSE than the average or median models.
 
+There is a multitude of regression models available for predicting LOS. To determine the best regression model between the subset of models that will be evaluated, the **R2 (R-squared)** score will be used.
 
- I used the Pandas and scikit-learn libraries for Python.
+R Square measures how much variability in dependent variable can be explained by the model. In other words, it is the proportion of the variance in the dependent variable that is predictable from the independent variables. R2 is defined as the following equation where (y_i) is an observed data point, (ŷ) is the mean of the observed data, and (f_i) the predicted model value.
+
+![RMSE](/images/R2.png)
+
+Best possible R2 score is 1.0 and a negative value means it is worse than a constant model, average or median in this case.
+
+**4. Data extraction, exploration and feature engineering**
+
+- The start point was to observe and analyze the tables in the dataset to understand how the data is distributed (Pandas libraries for Python is used to handle the tables as dataframes).
+- The common functions of Pandas DataFrame to use for an overview of the table are the following:
+  ``` python
+    dataframe.info()
+    dataframe.head()
+  ```
+
 
 
 
