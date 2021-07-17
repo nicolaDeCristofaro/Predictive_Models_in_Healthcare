@@ -8,6 +8,7 @@ def dataframe_from_csv(path, header=0, index_col=0):
 # read patients table
 def read_patients_table(mimic3_path):
     pats = dataframe_from_csv(mimic3_path + 'PATIENTS.csv')
+    # Pre-emptively don't include some columns that I don't need
     pats = pats[['SUBJECT_ID', 'GENDER', 'DOB', 'DOD']]
     pats.DOB = pd.to_datetime(pats.DOB)
     pats.DOD = pd.to_datetime(pats.DOD)
