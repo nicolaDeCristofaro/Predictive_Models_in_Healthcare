@@ -101,41 +101,6 @@ Now, for each prediction we want to get, we go through the following steps:
 
 -> length-of-stay-notebook.ipynb
 
-## Data extraction, exploration and feature engineering
-- Merge all tables linked between them
-- Explore data of tables obtained (info, describe, histograms) (if data is too large create a copy of the data for exploration so sample it down to a manageable size if necessary)
-- Using a jupyter notebook to keep record of data exploration
-- Study attributes and associated characteristics (name, type, % of missing values, useful for the task? and so on...)
-
-## Supervised Learning
-
-- What is Supervised Learning and why we choose it
-- How should performances be measured?
-- For each objective identify target attribute(s) and how you obtained it(them)
-  - In-hospital mortality you could use, in addition to features saw in tutorials, also the lactate indices referring the paper 
-
-## Study correlation between attributes
-
-## Data Preparation
-
-- Write functions for data transformations if necessary (why function?) (work on copies of the data to keep original dataset intact)
-- Data cleaning: 
-  - fix or remove outliers
-  - fill in missing values (for example with zero, mean, median) or drop their rows (or columns)
-- Feature Selection: drop the attributes that provide no useful information for the task
-- Optional Features engineering to transform or decompose features when necessary
-- Optional Features scaling
-
-## Predictive Models selection, evaluation and comparison
-
-## Parameters tuning
-
-## Predictions and Results analysis
-
-## Results discussion
-
-- results discussion with graph representation
-
 ## Conclusions and Future Development
 
 ### LOS
