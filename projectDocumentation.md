@@ -101,8 +101,3 @@ Now, for each prediction we want to get, we go through the following steps:
 
 -> length-of-stay-notebook.ipynb
 
-## Conclusions and Future Development
-
-### LOS
-U.S. hospital stays cost the health system at least $377.5 billion per year and recent Medicare legislation standardizes payments for procedures performed, regardless of the number of days a patient spends in the hospital. This incentivizes hospitals to identify patients of high LOS risk at the time of admission. Once identified, patients with high LOS risk can have their treatment plan optimized to minimize LOS and lower the chance of getting a hospital-acquired condition such as staph infection. Another benefit is that prior knowledge of LOS can aid in logistics such as room and bed allocation planning.
-
