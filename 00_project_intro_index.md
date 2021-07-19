@@ -1,3 +1,6 @@
+| Nicola De Cristofaro (Matr. 0522500876) | Cloud Computing Curriculum |
+| --- | --- |
+
 # Course Project: Predictive Models derived from Electronic Health record EHR
 
 ## Introduction & Objectives
