@@ -1,6 +1,3 @@
-| Nicola De Cristofaro (Matr. 0522500876) | Cloud Computing Curriculum |
-| --- | --- |
-
 # Course Project: Predictive Models derived from Electronic Health record EHR
 
 ## Introduction & Objectives
@@ -73,14 +70,14 @@ Now, for each prediction we want to get, starting from the baseline dataset crea
 
 ## Hospital LOS (Length-of-Stay)
 
-**View FILE ->**  *02_length_of_stay.pdf*
+**View FILE ->**  [02_length_of_stay.ipynb](02_length_of_stay.ipynb)
 
 ## In-Hospital Mortality
 
-**View FILE ->** *03_in-hospital-mortality.pdf*
+**View FILE ->** [03_in-hospital-mortality.ipynb](03_in-hospital-mortality.pdf)
 
 ## Readmission within 30, 90, 365 days
 
-**View FILE ->** *04_in-hospital-mortality.pdf*
+**View FILE ->** [04_in-hospital-mortality.ipynb](04_in-hospital-mortality.ipynb)
 
 
