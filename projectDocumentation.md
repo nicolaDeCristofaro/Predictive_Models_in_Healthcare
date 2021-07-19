@@ -57,17 +57,17 @@ Below the process to extract and prepare the data:
 
 Now, for each prediction we want to get, starting from the baseline dataset created at the previous step, we go through the following steps:
 
-- Problem Statement
-- Type of model to use for prediction
-- Metrics used for validation
-- Features engineering
-- Data cleaning
-- Features Selection
-- Split in training/test set
-- Prediction Model choice
-- Prediction Model validation
-- Parameter Tuning
-- Results discussion
+1. Problem Statement
+2. Type of model to use for prediction
+3. Metrics used for validation
+4. Features distribution and features engineering
+5. Data cleaning
+6. Features Selection
+7. Split in training/test set
+8. Prediction Model choice
+9. Prediction Model validation
+10. Parameter Tuning
+11. Results discussion
 
 
 ## Hospital LOS (Length-of-Stay)
