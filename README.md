@@ -78,6 +78,6 @@ Now, for each prediction we want to get, starting from the baseline dataset crea
 
 ## Readmission within 30, 90, 365 days
 
-**View FILE ->** [04_Readmission.ipynb](04_Readmission.ipynb)
+**View FILE ->** [04_readmission.ipynb](04_readmission.ipynb)
 
 
