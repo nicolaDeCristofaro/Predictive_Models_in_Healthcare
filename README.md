@@ -1,4 +1,4 @@
-# Course Project: Predictive Models derived from Electronic Health record EHR
+# Predictive Models derived from Electronic Health record EHR
 
 ## Introduction & Objectives
 
