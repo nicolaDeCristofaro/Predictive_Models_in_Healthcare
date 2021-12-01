@@ -48,7 +48,7 @@ The first step was exploring the tables, find useful insights, then merge the ta
 
 Below the process to extract and prepare the data:
 
-**View FILE ->** *01_data_exploration_preparation.pdf*
+**View FILE ->** [01_data_exploration_preparation.ipynb](01_data_exploration_preparation.ipynb)
 
 **We use Jupyter Notebook to describe these steps in order to show also the python code used to reach our target.**
 
