@@ -74,10 +74,10 @@ Now, for each prediction we want to get, starting from the baseline dataset crea
 
 ## In-Hospital Mortality
 
-**View FILE ->** [03_in-hospital-mortality.ipynb](03_in-hospital-mortality.ipynb)
+**View FILE ->** [03_in_hospital_mortality.ipynb](03_in_hospital_mortality.ipynb)
 
 ## Readmission within 30, 90, 365 days
 
-**View FILE ->** [04_in-hospital-mortality.ipynb](04_in-hospital-mortality.ipynb)
+**View FILE ->** [04_Readmission.ipynb](04_Readmission.ipynb)
 
 
