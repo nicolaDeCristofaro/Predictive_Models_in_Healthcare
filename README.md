@@ -74,7 +74,7 @@ Now, for each prediction we want to get, starting from the baseline dataset crea
 
 ## In-Hospital Mortality
 
-**View FILE ->** [03_in-hospital-mortality.ipynb](03_in-hospital-mortality.pdf)
+**View FILE ->** [03_in-hospital-mortality.ipynb](03_in-hospital-mortality.ipynb)
 
 ## Readmission within 30, 90, 365 days
 
